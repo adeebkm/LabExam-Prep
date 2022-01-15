@@ -21,7 +21,7 @@ class prime{
             System.out.println("The entered number is not a prime number");
         }
         else{
-            if(n != 1 || n != 0){
+            if(n != 1 && n != 0){
                 System.out.println("The entered number is a prime number");
             }
             else{
